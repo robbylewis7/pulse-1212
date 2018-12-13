@@ -1,0 +1,63 @@
+.lists {
+    display: block;
+}
+
+#mainContent{
+    display: inline-flex;
+}
+
+
+.articles{
+    margin-top: 110px;
+    margin-left: 60px;
+}
+
+
+.teams{
+    color: #4a4a4a;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 140px;
+    border-radius: 10px;
+    width: 65%;
+    border: 2px solid #4a4a4a;
+    margin-right: 250px;
+
+}
+
+.teams:hover{
+    color: #CDCDCD;
+    
+}
+
+.teams:hover img{
+    display: block;
+    cursor: pointer;
+}
+
+.deleteIcon{
+    height: 30px;
+    width: 30px;
+    float: right;
+    display: none;
+    
+}
+
+
+#cancel{
+    margin-bottom: 20px;
+}
+
+#header{
+    margin-top: 50px;
+    margin-left: 140px;
+    padding-bottom: 40px;
+}
+
+.add-button{
+    margin-left: 140px;
+}
+
+/* li.teams{
+    display: none;
+} */
